@@ -140,7 +140,7 @@ Fork personal → trabajo local → PR a develop → revisión → merge
 | Natalia Medel | Clase `Camion` — herencia y polimorfismo |
 | Cristian | Clase `Furgon` — herencia y polimorfismo |
 | Cristopher | Clase `MotoReparto` — herencia y polimorfismo |
-| Arantxa Fischr | `Main` — menú, Scanner, registro de vehículos |
+| Arantxa Fischer | `Main` — menú, Scanner, registro de vehículos |
 | Sabrina Jeria | `Main` — consultas, reporte, validaciones de entrada |
 
 ---
