@@ -1,3 +1,5 @@
+package modelo;
+
 //Abrimos la clase principal del arcrhivo Vehiculo
 public class Vehiculo {
 
@@ -16,6 +18,15 @@ public class Vehiculo {
         this.modelo = modelo; 
         setCapacidadCarga(capacidadCarga);
         this.disponible = true; // Un vehículo nuevo suele registrarse como disponible inicialmente [cite: 338]
+    }
+
+    // Constructor con disponibilidad
+    public Vehiculo(String patente, String marca, String modelo, double capacidadCarga, boolean disponible) {
+        setPatente(patente);
+        setMarca(marca);
+        this.modelo = modelo;
+        setCapacidadCarga(capacidadCarga);
+        this.disponible = disponible;
     }
 
     // ==========================================

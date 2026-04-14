@@ -3,10 +3,6 @@ package modelo;
 public class Camion extends Vehiculo {
     // Atributo propio del Camion
     private int numeroEjes;
-    // Constructor vacío
-    public Camion() {
-        super();
-    }
     // Constructor con parámetros
     public Camion(String patente, String marca, String modelo,
                   double capacidadCarga, boolean disponible,
@@ -29,13 +25,13 @@ public class Camion extends Vehiculo {
     // POLIMORFISMO: sobrescritura del método del padre
     @Override
     public void mostrarDetalle() {
-        System.out.println("===== CAMIÓN =====");
-        System.out.println("Patente: " + getPatente());
-        System.out.println("Marca: " + getMarca());
-        System.out.println("Modelo: " + getModelo());
-        System.out.println("Capacidad: " + getCapacidadCarga());
-        System.out.println("Disponible: " + isDisponible());
-        System.out.println("Ejes: " + numeroEjes);
-        System.out.println("==================");
+        System.out.println("===== DETALLES DEL CAMIÓN =====");
+        System.out.printf("Patente: %s%n", getPatente());
+        System.out.printf("Marca: %s%n", getMarca());
+        System.out.printf("Modelo: %s%n", getModelo());
+        System.out.printf("Capacidad de Carga: %.2f kg%n", getCapacidadCarga());
+        System.out.printf("Disponible: %s%n", isDisponible() ? "Sí" : "No");
+        System.out.printf("Número de Ejes: %d%n", numeroEjes);
+        System.out.println("=================================");
     }
 }
