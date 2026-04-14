@@ -21,7 +21,7 @@ Construir un sistema funcional que permita registrar, consultar y gestionar dist
 
 ## 🏗️ Estructura del proyecto
 
-
+```
 vehiculos-reparto/
 │
 ├── src/
@@ -33,7 +33,7 @@ vehiculos-reparto/
 │
 ├── README.md
 └── .gitignore
-
+```
 
 ---
 
@@ -136,12 +136,12 @@ Fork personal → trabajo local → PR a develop → revisión → merge
 | Integrante | Responsabilidad |
 |------------|-----------------|
 | Diego Peña | Arquitectura, integración, gestión del repo |
-| Por definir | Clase `Vehiculo` — encapsulación y validaciones |
-| Por definir[Nombre] | Clase `Camion` — herencia y polimorfismo |
-| Por definir[Nombre] | Clase `Furgon` — herencia y polimorfismo |
-| Por definir[Nombre] | Clase `MotoReparto` — herencia y polimorfismo |
-| Por definir[Nombre] | `Main` — menú, Scanner, registro de vehículos |
-| Por definir[Nombre] | `Main` — consultas, reporte, validaciones de entrada |
+| Manuel Labrador | Clase `Vehiculo` — encapsulación y validaciones |
+| Natalia Medel | Clase `Camion` — herencia y polimorfismo |
+| Cristian | Clase `Furgon` — herencia y polimorfismo |
+| Cristopher | Clase `MotoReparto` — herencia y polimorfismo |
+| Arantxa Fischr | `Main` — menú, Scanner, registro de vehículos |
+| Sabrina Jeria | `Main` — consultas, reporte, validaciones de entrada |
 
 ---
 

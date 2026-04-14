@@ -21,7 +21,9 @@ public class Main {
 
             switch (opcion){
 
-                case 1 -> {
+                case 1 -> { Camion c1 = new Camion("ABCD12", "Volvo", "FH16", 20000, true, 6);
+                    c1.mostrarDetalle();
+
                 }
                 default -> System.out.println("Opción no válida");
             }
